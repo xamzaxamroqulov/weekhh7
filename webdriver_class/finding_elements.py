@@ -75,4 +75,3 @@ print('current_url after closing a new tab: ', driver.current_url)
 print('current_window_handle after closing a new tab: ', driver.current_window_handle)
 driver.quit()  # This will close the browser.
 print("browser is closed")
-
