@@ -20,6 +20,7 @@ from webdriver_class.webdriver_functions import *
 # username: hello0@email.com, have strong password "fakepassword"
 # Identify all locators by inspecting on browser (xpath), optional: id, css selector
 sign_in_link = "//a[@class='login']"
+# sign_in_link = "//a[@class='login'"  # This is incorrect XPATH, to see try Except.
 email_input = "//input[@id='email']"
 password_input = "//input[@id='passwd']"
 sign_in_button = "//button[@id='SubmitLogin']"
